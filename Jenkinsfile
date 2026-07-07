@@ -20,16 +20,19 @@ pipeline {
         }
 
         stage('Run Tests') {
-            steps {
-                sh '''
-                . venv/bin/activate
-                pytest -v
-                '''
-            }
-        }
-    }
+    steps {
+        sh '''
+        export MONGO_URI="mongodb://localhost:27017/studentdb"
+        export SECRET_KEY="rahul123"
 
-    post {
+        . venv/bin/activate
+        pytest -v
+        '''
+    }
+}
+     
+                
+     post {
         always {
             echo 'Pipeline execution completed.'
         }
