@@ -2,6 +2,7 @@ pipeline {
     agent any
 
     stages {
+
         stage('Clone') {
             steps {
                 echo 'Repository cloned successfully'
@@ -20,19 +21,20 @@ pipeline {
         }
 
         stage('Run Tests') {
-    steps {
-        sh '''
-        export MONGO_URI="mongodb://localhost:27017/studentdb"
-        export SECRET_KEY="rahul123"
+            steps {
+                sh '''
+                export MONGO_URI="mongodb://localhost:27017/studentdb"
+                export SECRET_KEY="rahul123"
 
-        . venv/bin/activate
-        pytest -v
-        '''
+                . venv/bin/activate
+                pytest -v
+                '''
+            }
+        }
+
     }
-}
-     
-                
-     post {
+
+    post {
         always {
             echo 'Pipeline execution completed.'
         }
