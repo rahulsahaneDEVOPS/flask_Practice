@@ -32,6 +32,24 @@ pipeline {
             }
         }
 
+        stage('Deploy') {
+            steps {
+                sh '''
+                echo "Starting deployment..."
+
+                mkdir -p deployment
+
+                cp app.py deployment/
+                cp requirements.txt deployment/
+                cp -r templates deployment/
+
+                echo "Application deployed to staging directory."
+
+                ls -l deployment
+                '''
+            }
+        }
+
     }
 
     post {
