@@ -2,6 +2,13 @@
 
 ![Project Demo](screenshots/21_Jenkins_Pipeline_SUCCESS.png)
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Flask](https://img.shields.io/badge/Flask-Web_App-black)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green)
+![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-red)
+![Pytest](https://img.shields.io/badge/Pytest-Testing-yellow)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
 ## Project Overview
 
 This project is a **Flask-based Student Registration System** integrated with **MongoDB** for database operations. The application allows users to perform CRUD (Create, Read, Update, Delete) operations on student records.
