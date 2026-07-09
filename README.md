@@ -1,5 +1,7 @@
 # Student Registration System with Jenkins CI/CD
 
+![Project Demo](screenshots/17_Jenkins_Dashboard_Success.png)
+
 ## Project Overview
 
 This project is a **Flask-based Student Registration System** integrated with **MongoDB** for database operations. The application allows users to perform CRUD (Create, Read, Update, Delete) operations on student records.
