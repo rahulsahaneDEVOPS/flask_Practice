@@ -12,6 +12,7 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu)
 ![SMTP](https://img.shields.io/badge/Gmail-SMTP-red?logo=gmail)
 ![License](https://img.shields.io/badge/License-MIT-blue)
+> **End-to-End CI/CD Project | Flask • MongoDB • Jenkins • GitHub Webhook • Pytest • Gmail SMTP**
 
 ## Project Overview
 
