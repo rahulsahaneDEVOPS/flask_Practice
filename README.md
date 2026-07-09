@@ -1,6 +1,6 @@
 # Student Registration System with Jenkins CI/CD
 
-![Project Demo](screenshots/17_Jenkins_Dashboard_Success.png)
+![Project Demo](screenshots/21_Jenkins_Pipeline_SUCCESS.png)
 
 ## Project Overview
 
