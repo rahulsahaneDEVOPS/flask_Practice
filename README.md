@@ -2,11 +2,15 @@
 
 ![Project Demo](screenshots/21_Jenkins_Pipeline_SUCCESS.png)
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Flask](https://img.shields.io/badge/Flask-Web_App-black)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-green)
-![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-red)
-![Pytest](https://img.shields.io/badge/Pytest-Testing-yellow)
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-Web%20Application-black?logo=flask)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)
+![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-red?logo=jenkins)
+![Pytest](https://img.shields.io/badge/Pytest-Testing-yellow?logo=pytest)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
+![Webhook](https://img.shields.io/badge/GitHub-Webhook-blueviolet)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu)
+![SMTP](https://img.shields.io/badge/Gmail-SMTP-red?logo=gmail)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ## Project Overview
